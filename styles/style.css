@@ -47,6 +47,10 @@ nav{
     color: #757575;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .dark-2{
     color: #474747;
 }
@@ -94,8 +98,13 @@ nav li a {
 
 /*main styles*/
 main{
-    max-width: 1140px;
+    max-width: 2040px;
     margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /*about style*/
@@ -103,7 +112,6 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin: 130px;
 }
 
 .about-items{
@@ -113,4 +121,14 @@ main{
 
 .item-description{
     font-weight: 600;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 }
